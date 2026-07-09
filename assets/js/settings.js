@@ -38,7 +38,6 @@ function toggleDropdown(id, type) {
     // Isara muna ang ibang nakabukas na dropdown menu
     document.querySelectorAll('.dropdown-menu-list').forEach(el => el.classList.remove('show'));
     
-    // Buksan ang pinindot na menu target
     const menu = document.getElementById(`dropdown-${type}-${id}`);
     if (menu) menu.classList.toggle('show');
     

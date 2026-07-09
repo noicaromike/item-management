@@ -94,9 +94,9 @@ class ItemController extends CI_Controller {
 
         // 2. Pag-handle sa Image Upload (kung may binago)
         $existing_item = $this->ItemModel->get_item_by_id($id);
-        $picture = NULL; // GAWIN NATING DEFAULT NA NULL!
+        $picture = NULL; // GAWIN DEFAULT NA NULL!
 
-        // TINGNAN KUNG MAY INUPLOAD NA BAGONG LARAWAN
+        // TINGNAN KUNG MAY INUPLOAD NA BAGO
         if (!empty($_FILES['item_image']['name'])) {
             $config['upload_path']   = './uploads/items/';
             $config['allowed_types'] = 'gif|jpg|jpeg|png';

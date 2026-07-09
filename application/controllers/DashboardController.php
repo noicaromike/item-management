@@ -10,13 +10,12 @@ class DashboardController extends CI_Controller {
 
         // SECURITY CHECK: Kung walang active session, balik sa login page
         if (!$this->session->userdata('logged_in')) {
-            $this->session->set_flashdata('error', 'Kailangan mo munang mag-login!');
+            $this->session->set_flashdata('error', 'Need mo munang mag-login!');
             redirect('login');
         }
     }
 
     public function index() {
-        // Ipasa natin ang pangalan ng user sa view para sa welcome message
         $data['full_name'] = $this->session->userdata('full_name');
         $data['role'] = $this->session->userdata('role');
 
