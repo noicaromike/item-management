@@ -1,0 +1,657 @@
+/* Reset body at HTML */
+nav.navbar {
+        display: none !important;
+    }
+
+    /* I-reset ang padding/margin ng parent elements para i-center ang card */
+    body {
+        background-color: #f8fafc !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .container {
+        max-width: 100% !important;
+        padding: 0 !important;
+    }
+
+/* Dashboard Wrapper Layout */
+.dashboard-wrapper {
+    display: flex; 
+    min-height: 100vh;
+}
+
+
+/* Base Layout Wrapper */
+.auth-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8fafc; /* Soft minimalist slate gray background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Premium Main Card Shadow */
+.auth-card {
+    width: 100%;
+    max-width: 420px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    padding: 35px 30px;
+    box-sizing: border-box;
+}
+
+/* Header Sections Styling */
+.auth-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.auth-icon-box {
+    width: 50px;
+    height: 50px;
+    background: #f0f9ff;
+    color: #0284c7;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin: 0 auto 12px auto;
+}
+.auth-header h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: #0f172a;
+}
+.auth-header p {
+    margin: 6px 0 0 0;
+    font-size: 13px;
+    color: #64748b;
+}
+
+/* Forms & Modern Form Inputs */
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.form-group-block {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.form-group-block label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #475569;
+}
+.form-group-block label i {
+    margin-right: 4px;
+    color: #94a3b8;
+}
+.auth-input {
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+    font-size: 14px;
+    background: #ffffff;
+    color: #334155;
+    transition: all 0.2s;
+    box-sizing: border-box;
+}
+.auth-input:focus {
+    outline: none;
+    border-color: #0284c7;
+    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+}
+
+/* Action Buttons (Consistent with Save Data theme) */
+.auth-btn-primary {
+    width: 100%;
+    padding: 11px;
+    background: #0284c7; /* Matching blue theme button */
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: background 0.15s ease;
+    margin-top: 5px;
+}
+.auth-btn-primary:hover {
+    background: #0369a1;
+}
+
+/* System Alerts Custom Framework */
+.auth-alert {
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid transparent;
+}
+.alert-danger {
+    background: #fef2f2;
+    color: #b91c1c;
+    border-color: #fca5a5;
+}
+.alert-success {
+    background: #f0fdf4;
+    color: #16a34a;
+    border-color: #86efac;
+}
+
+/* Redirection Footer Link Styling */
+.auth-footer {
+    text-align: center;
+    margin-top: 25px;
+    border-top: 1px solid #f1f5f9;
+    padding-top: 15px;
+}
+.auth-footer p {
+    margin: 0;
+    font-size: 13px;
+    color: #64748b;
+}
+.auth-footer a {
+    color: #0284c7;
+    text-decoration: none;
+    font-weight: 600;
+}
+.auth-footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* MINIMALIST SIDEBAR STYLING */
+.sidebar {
+    width: 260px; 
+    background-color: #ffffff; /* Purong puti ang base */
+    color: #1e293b; /* Dark slate para sa text */
+    display: flex; 
+    flex-direction: column; 
+    border-right: 1px solid #e2e8f0; /* Manipis na light gray border imbes na heavy shadow */
+}
+
+.sidebar-header {
+    padding: 24px; 
+    background-color: #ffffff;
+    text-align: left; /* Mas natural tignan kung left-aligned */
+    font-size: 18px; 
+    font-weight: 700; 
+    color: #0f172a;
+    border-bottom: 1px solid #f1f5f9;
+    letter-spacing: -0.5px;
+}
+
+.sidebar-user {
+    padding: 16px 24px; 
+    background-color: #f8fafc; /* Napakalebel na soft gray background */
+    border-bottom: 1px solid #e2e8f0;
+    text-align: left;
+}
+
+.sidebar-user div:first-child {
+    font-weight: 600;
+    color: #334155;
+    font-size: 14px;
+}
+
+.sidebar-user div:last-child {
+    font-size: 11px; 
+    color: #64748b !important; /* Muted gray role text */
+    font-weight: 600; 
+    text-transform: uppercase; 
+    margin-top: 2px;
+}
+
+.sidebar-menu {
+    flex: 1; 
+    padding: 20px 12px; /* May kaunting breathing room sa gilid */
+}
+
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 16px; 
+    color: #475569; /* Soft dark text */
+    text-decoration: none; 
+    border-radius: 6px; /* Modern curved edges sa active items */
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+/* Active State: Minimalist soft blue background instead of giant blocks */
+.sidebar-link.active {
+    color: #0284c7; /* Sky blue text */
+    background-color: #f0f9ff; /* Sobrang dahan na blue tint background */
+    font-weight: 600;
+}
+
+.sidebar-link:hover {
+    background-color: #f1f5f9; /* Banayad na kulay abo sa hover */
+    color: #0f172a;
+    text-decoration: none;
+}
+
+/* Minimalist Sidebar Footer / Logout button */
+.sidebar-footer {
+    padding: 16px 12px;
+    border-top: 1px solid #e2e8f0;
+}
+
+.sidebar-footer a {
+    display: block; 
+    padding: 10px 16px; 
+    color: #94a3b8; /* Muted slate gray */
+    text-decoration: none; 
+    font-weight: 500; 
+    font-size: 14px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.sidebar-footer a:hover {
+    background-color: #fef2f2; /* Napakalambot na red tint kung maglo-logout */
+    color: #dc2626; /* Soft red text */
+    text-decoration: none;
+}
+
+/* MAIN CONTENT AREA STYLING */
+.main-content {
+    flex: 1; 
+    background-color: #f8fafc; /* Mas malinis na light background color */
+    padding: 40px; 
+    display: flex; 
+    flex-direction: column;
+}
+
+.content-header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 32px; 
+    background: transparent; /* Tinanggal ang card wrapper para lumutang ang title */
+    padding: 0; 
+    border-radius: 0; 
+    box-shadow: none;
+}
+
+.content-header h2 {
+    font-weight: 700;
+    color: #0f172a;
+    letter-spacing: -0.5px;
+}
+
+/* Welcome Banner Minimalist Style */
+.welcome-banner {
+    background: #ffffff; /* Puti para maging malinis */
+    color: #1e293b; 
+    padding: 24px; 
+    border-radius: 8px; 
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+    margin-bottom: 32px;
+}
+
+.welcome-banner h3 {
+    color: #0f172a;
+    font-weight: 600;
+}
+
+
+
+ /* Karagdagang Minimalist Tab Styles */
+        .tabs-container {
+            display: flex;
+            gap: 8px;
+            border-bottom: 1px solid #e2e8f0;
+            margin-bottom: 24px;
+        }
+        .tab-btn {
+            padding: 10px 20px;
+            border: none;
+            background: transparent;
+            font-size: 14px;
+            font-weight: 600;
+            color: #64748b;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+        }
+        .tab-btn.active {
+            color: #0284c7;
+            border-bottom-color: #0284c7;
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        .search-control {
+            width: 100%;
+            max-width: 350px;
+            padding: 8px 14px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            font-size: 14px;
+            margin-bottom: 20px;
+            outline: none;
+        }
+        .search-control:focus {
+            border-color: #0284c7;
+            box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.1);
+        }
+
+        .tabs-container { display: flex; gap: 8px; border-bottom: 1px solid #e2e8f0; margin-bottom: 24px; }
+        .tab-btn { padding: 10px 20px; border: none; background: transparent; font-size: 14px; font-weight: 600; color: #64748b; cursor: pointer; border-bottom: 2px solid transparent; transition: all 0.2s; }
+        .tab-btn.active { color: #0284c7; border-bottom-color: #0284c7; }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        .search-control { width: 100%; max-width: 350px; padding: 8px 14px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 14px; margin-bottom: 20px; outline: none; }
+        .search-control:focus { border-color: #0284c7; box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.1); }
+        .pag-btn { background: #ffffff; border: 1px solid #cbd5e1; padding: 6px 12px; border-radius: 4px; font-size: 13px; font-weight: 600; cursor: pointer; color: #334155; }
+        .pag-btn:disabled { background: #f1f5f9; color: #94a3b8; cursor: not-allowed; }
+
+
+/* Ellipsis Dropdown Container */
+.action-dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-trigger {
+    background: transparent;
+    border: none;
+    color: #64748b;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.dropdown-trigger:hover {
+    background: #f1f5f9;
+    color: #0f172a;
+}
+.dropdown-menu-list {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    min-width: 120px;
+    padding: 4px 0;
+}
+.dropdown-menu-list.show {
+    display: block;
+}
+.dropdown-item-btn {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    text-align: left;
+    background: transparent;
+    border: none;
+    font-size: 13px;
+    color: #334155;
+    cursor: pointer;
+    font-weight: 500;
+}
+.dropdown-item-btn:hover {
+    background: #f8fafc;
+    color: #0f172a;
+}
+.dropdown-item-btn.delete-btn:hover {
+    background: #fef2f2;
+    color: #dc2626;
+}
+
+/* Minimalist Custom Modal Styles */
+.custom-modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 23, 42, 0.3); /* Soft background blur style */
+    align-items: center;
+    justify-content: center;
+}
+.custom-modal.show {
+    display: flex;
+}
+/* Enhanced Modal Structure */
+.modal-content-card {
+    background: #ffffff;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 450px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    animation: fadeIn 0.2s ease-out;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    border-bottom: 1px solid #f1f5f9;
+    background: #f8fafc;
+}
+
+.modal-header h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #0f172a;
+}
+
+.modal-close-x {
+    background: transparent;
+    border: none;
+    color: #94a3b8;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 4px;
+}
+.modal-close-x:hover {
+    color: #64748b;
+}
+
+.modal-body {
+    padding: 20px;
+    color: #334155;
+    font-size: 14px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    padding: 14px 20px;
+    border-top: 1px solid #f1f5f9;
+    background: #f8fafc;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+
+/* Custom Searchable Dropdown Wrapper */
+.searchable-select-container {
+    position: relative;
+    width: 100%;
+}
+.select-box-trigger {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+    background: #ffffff;
+    text-align: left;
+    cursor: pointer;
+    color: #334155;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.select-dropdown-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    max-height: 200px; /* Nililimitahan ang haba */
+    overflow-y: auto;  /* Nagdadagdag ng scrollbar kapag marami */
+    box-sizing: border-box;
+}
+.select-dropdown-options.show {
+    display: block;
+}
+.select-search-input {
+    width: calc(100% - 16px);
+    margin: 8px;
+    padding: 6px 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    font-size: 13px;
+    outline: none;
+    box-sizing: border-box;
+}
+.option-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 13px;
+    color: #334155;
+}
+.option-item:hover {
+    background: #f1f5f9;
+    color: #0f172a;
+}
+.option-item.hidden {
+    display: none;
+}
+
+
+
+/* Drag and Drop Zone Container - Full Width Mode */
+.image-drop-zone {
+    width: 100%;
+    height: 110px; /* Mas malawak na drop area */
+    border: 2px dashed #cbd5e1;
+    border-radius: 8px;
+    background: #f8fafc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.image-drop-zone:hover, .image-drop-zone.drag-over {
+    border-color: #0284c7;
+    background: #f0f9ff;
+}
+
+/* Prompt state layout */
+.drop-prompt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+/* Preview Image Box Container */
+.drop-preview-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+}
+
+/* Limitasyon sa laki ng sapatos para hindi sumabog ang modal */
+.drop-preview-container img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain; /* Maayos na scaling nang hindi nade-deform ang image */
+    border-radius: 6px;
+}
+
+/* Ang Floating X Button sa kanang sulok sa itaas */
+.drop-remove-btn {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 22px;
+    height: 22px;
+    background: rgba(239, 68, 68, 0.95);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 11px;
+    transition: background 0.2s, transform 0.1s;
+    z-index: 20;
+    padding: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.drop-remove-btn:hover {
+    background: rgba(220, 38, 38, 1);
+    transform: scale(1.1);
+}
+
+
+
