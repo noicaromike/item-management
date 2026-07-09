@@ -39,7 +39,7 @@
 
 <div class="dashboard-wrapper">
     <div class="sidebar">
-        <div class="sidebar-header">IMS Project</div>
+        <div class="sidebar-header">IMS Training</div>
         <div class="sidebar-user">
             <div style="font-weight: bold; color: #fff;"><?= $full_name ?></div>
             <div style="font-size: 12px; color: #2ecc71; font-weight: bold; text-transform: uppercase; margin-top: 3px;">

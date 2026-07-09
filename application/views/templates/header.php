@@ -11,7 +11,7 @@
 <body class="bg-light">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
         <div class="container">
-            <a class="navbar-brand" href="#">IMS Project</a>
+            <a class="navbar-brand" href="#">IMS Training</a>
         </div>
     </nav>
     <div class="container">

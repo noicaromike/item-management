@@ -11,7 +11,7 @@
     <div class="dashboard-wrapper">
     
     <div class="sidebar">
-        <div class="sidebar-header">IMS Project</div>
+        <div class="sidebar-header">IMS Training</div>
         
         <div class="sidebar-user">
             <div style="font-weight: bold; color: #fff;"><?= $full_name ?></div>
@@ -53,7 +53,7 @@
 
         <div class="welcome-banner">
             <h3 style="margin: 0 0 10px 0; font-size: 22px;">Mabuhay, <?= $full_name ?>!</h3>
-            <p style="margin: 0; opacity: 0.9; font-size: 15px;">Maligayang pagbabalik sa Inventory Management System.</p>
+            <p style="margin: 0; opacity: 0.9; font-size: 15px;">Welcome back sa IMS.</p>
         </div>
 
         <div style="display: flex; gap: 20px;">

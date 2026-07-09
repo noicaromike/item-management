@@ -4,7 +4,7 @@
             <div class="auth-icon-box">
                 <i class="fa-solid fa-boxes-stacked"></i>
             </div>
-            <h2>IMS Project</h2>
+            <h2>IMS Training</h2>
             <p>Sign in to manage your tracks and inventories</p>
         </div>
 

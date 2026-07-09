@@ -11,7 +11,7 @@
 
 <div class="dashboard-wrapper">
     <div class="sidebar">
-        <div class="sidebar-header">IMS Project</div>
+        <div class="sidebar-header">IMS Training</div>
         <div class="sidebar-user">
             <div><?= !empty($full_name) ? $full_name : 'Admin Admin'; ?></div>
             <div>● <?= !empty($role) ? $role : 'STAFF'; ?></div>
